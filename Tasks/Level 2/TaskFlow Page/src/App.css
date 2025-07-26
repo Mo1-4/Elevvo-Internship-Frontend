@@ -1,0 +1,321 @@
+/* General Styling */
+body,
+#root,
+.taskflow-container {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: #f8fafc;
+  color: #222;
+}
+
+h2{
+  border: 5px solid #000;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: #bbbbbb53;
+}
+
+/* Hero Section */
+.hero {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem 3rem 1rem;
+  animation: bgcolor 9s ease-in-out infinite;
+}
+.app-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  animation: txtfade 3s ease-out infinite;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.cta-btn {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 0.9rem 2.2rem;
+  font-size: 1.1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-weight: 600;
+}
+.cta-btn:hover {
+  background: #fbbf24;
+  color: #222;
+  border: 2px solid #222;
+}
+
+@keyframes bgcolor {
+  0% {
+    background: rgb(62, 9, 27)
+  }
+  50% {
+    background: rgb(122, 35, 52);
+  }
+  100% {
+    background: rgb(62, 9, 27);
+  }
+}
+
+@keyframes txtfade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Features Section */
+.features {
+  background: #fff;
+  padding: 3rem 1rem 2rem 1rem;
+  text-align: center;
+}
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.feature {
+  background: #f3f4f6;
+  border-radius: 1.2rem;
+  padding: 2rem 1.5rem;
+  width: 260px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.feature:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(251, 191, 36, 0.12);
+}
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+.feature h3 {
+  margin: 0.5rem 0 0.7rem 0;
+  font-size: 1.2rem;
+}
+
+/* Reviews Section */
+.reviews {
+  background: #fbbf24;
+  color: #222;
+  padding: 3rem 1rem 2rem 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.reviews h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.reviews-list blockquote {
+  background: #fffbe6;
+  border-left: 5px solid #f59e42;
+  border-radius: 1rem;
+  padding: 1.5rem 1.2rem;
+  width: 300px;
+  font-style: italic;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.review-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.reviews-list blockquote:hover .review-img{
+  opacity: 1;
+}
+
+.reviews-list footer {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  color: #f59e42;
+  font-style: normal;
+}
+
+/* Pricing Section */
+.pricing {
+  background: #fff;
+  padding: 3rem 1rem 2rem 1rem;
+  text-align: center;
+}
+.pricing h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.pricing-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.pricing-card {
+  background: #f3f4f6;
+  border-radius: 1.2rem;
+  padding: 2rem 1.5rem;
+  width: 260px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.pricing-card.pro {
+  border: 2px solid #fbbf24;
+  background: #fffbe6;
+}
+.pricing-card.team {
+  border: 2px solid #f59e42;
+}
+.pricing-card h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+}
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.5rem 0 1rem 0;
+  color: #f59e42;
+}
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+.pricing-card li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+.pricing-card button {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+.pricing-card button:hover {
+  background: #fbbf24;
+  color: #222;
+  border: 2px solid #222;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+  margin-top: auto;
+}
+.footer-links {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.footer-links a {
+  padding-inline: 10px;
+  color: #fbbf24;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  border: solid #fbbf24;
+  border-top: 2px;
+  border-bottom: 2px;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+.footer-social a {
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-social a:hover {
+  color: #fbbf24;
+}
+.footer-copy {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #bbb;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+  .features-list,
+  .reviews-list,
+  .pricing-options {
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature,
+  .pricing-card,
+  .reviews-list blockquote {
+    width: 90vw;
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .app-title {
+    font-size: 2.1rem;
+  }
+  .tagline {
+    font-size: 1.1rem;
+  }
+  .hero,
+  .features,
+  .reviews,
+  .pricing {
+    padding: 2rem 0.5rem 1.5rem 0.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .feature,
+  .pricing-card,
+  .reviews-list blockquote {
+    width: 80vw;
+    max-width: 250px;
+  }
+}
