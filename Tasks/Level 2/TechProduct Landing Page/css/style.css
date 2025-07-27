@@ -1,0 +1,102 @@
+/* Custom styles for Tech Product Landing Page */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.card i {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+@media (max-width: 767.98px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  .lead {
+    font-size: 1.1rem;
+  }
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #1a1a1a !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .card {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .card-body {
+  color: #ffffff !important;
+}
+
+.dark-mode .navbar {
+  background-color: #1a1a1a !important;
+}
+
+.dark-mode .navbar-brand,
+.dark-mode .nav-link {
+  color: #ffffff !important;
+}
+
+.dark-mode .navbar-nav .nav-link:hover {
+  color: #f8f9fa !important;
+}
+
+.dark-mode .dropdown-menu {
+  background-color: #2d2d2d !important;
+  border-color: #404040 !important;
+}
+
+.dark-mode .dropdown-item {
+  color: #ffffff !important;
+}
+
+.dark-mode .dropdown-item:hover {
+  background-color: #404040 !important;
+  color: #ffffff !important;
+}
+
+.dark-mode .bg-light {
+  background-color: #1a1a1a !important;
+}
+
+.dark-mode .text-muted {
+  color: #b0b0b0 !important;
+}
+
+.dark-mode .border-primary {
+  border-color: #007bff !important;
+}
+
+.dark-mode .border-success {
+  border-color: #28a745 !important;
+}
+
+.dark-mode .border-warning {
+  border-color: #ffc107 !important;
+}
+
+
+

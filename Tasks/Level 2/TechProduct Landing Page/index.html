@@ -1,13 +1,272 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="svg" href="./images/logo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tech Product App</title>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header>
+        <nav class="navbar navbar-expand-lg" id="navbar">
+            <div class="container">
+              <a class="navbar-brand" href="#">Tech Product</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mx-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Other
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#testmonials">Reviews</a></li>
+                      <li><a class="dropdown-item" href="#pricing">Pricing</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#cta">Call-on-Action</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Comming Soon...</a>
+                  </li>
+                </ul>
+                <button class="btn btn-warning" id="darkButton" type="submit">Switch To <span>Dark</span> Mode</button>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="bg-primary text-white text-center py-5" id="dark">
+            <div class="container">
+                <h1 class="display-4 fw-bold">Revolutionize Your Workflow</h1>
+                <p class="lead">The ultimate SaaS tool for modern teams. Boost productivity, streamline tasks, and grow your business.</p>
+                <ul class="list-unstyled d-flex flex-column flex-md-row justify-content-center gap-3 mb-4">
+                    <li><i class="bi bi-check-circle-fill"></i> 30-day free trial</li>
+                    <li><i class="bi bi-check-circle-fill"></i> No credit card required</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Cancel anytime</li>
+                </ul>
+                <a href="#cta" class="btn btn-light btn-lg mt-3">Get Started Free</a>
+            </div>
+        </section>
+    
+        <!-- Features Section -->
+        <section class="py-5 bg-light" id="features">
+            <div class="container">
+                <h2 class="text-center mb-4">Features</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="mb-3"><i class="bi bi-lightning-charge display-5 text-primary"></i></div>
+                                <h5 class="card-title">Fast & Secure</h5>
+                                <p class="card-text">Experience lightning-fast performance with top-notch security for your data.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="mb-3"><i class="bi bi-people display-5 text-primary"></i></div>
+                                <h5 class="card-title">Team Collaboration</h5>
+                                <p class="card-text">Collaborate in real-time with your team, assign tasks, and track progress easily.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="mb-3"><i class="bi bi-bar-chart-line display-5 text-primary"></i></div>
+                                <h5 class="card-title">Analytics & Insights</h5>
+                                <p class="card-text">Gain actionable insights with powerful analytics and reporting tools.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="mb-3"><i class="bi bi-cloud-arrow-up display-5 text-primary"></i></div>
+                                <h5 class="card-title">Cloud Sync</h5>
+                                <p class="card-text">Access your data anywhere, anytime, with seamless cloud synchronization.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="mb-3"><i class="bi bi-shield-lock display-5 text-primary"></i></div>
+                                <h5 class="card-title">Advanced Security</h5>
+                                <p class="card-text">Multi-layered security and regular audits keep your information safe.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body text-center">
+                                <div class="mb-3"><i class="bi bi-gear display-5 text-primary"></i></div>
+                                <h5 class="card-title">Customizable Workflows</h5>
+                                <p class="card-text">Tailor the platform to fit your unique business processes and needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Testimonials Section -->
+        <section class="py-5" id="testmonials">
+            <div class="container">
+                <h2 class="text-center mb-4">Reviews</h2>
+                <div class="row g-4 justify-content-center align-items-center">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0 d-flex flex-column justify-content-center align-items-center text-center gap-2">
+                                    <img src="images/user1.png" class="img-fluid rounded-circle m-2" width="260px" alt="testmonials">
+                                    <p>"This product transformed our workflow! Highly recommended."</p>
+                                    <footer class="blockquote-footer">Alex, Startup Founder</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0 d-flex flex-column justify-content-center align-items-center text-center gap-2">
+                                    <img src="images/user2.png" class="img-fluid rounded-circle m-2" width="230px" height="230px" alt="testmonials">
+                                    <p>"Easy to use, powerful features, and great support!"</p>
+                                    <footer class="blockquote-footer">Jamie, Project Manager</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0 d-flex flex-column justify-content-center align-items-center text-center gap-2">
+                                    <img src="images/user3.png" class="img-fluid rounded-circle m-2" width="260px" height="250px" alt="testmonials">
+                                    <p>"The analytics dashboard gave us insights we never had before. Our team is more productive than ever."</p>
+                                    <footer class="blockquote-footer">Morgan, Operations Lead</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-4 justify-content-center mt-3">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-0 shadow-sm">
+                            <div class="card-body">
+                                <blockquote class="blockquote mb-0 d-flex flex-column justify-content-center align-items-center text-center gap-2">
+                                    <img src="images/user4.jpg" class="img-fluid rounded-circle m-2" width="250px" height="250px" alt="testimonials">
+                                    <p>"Seamless integration with our existing tools. The support team is fantastic!"</p>
+                                    <footer class="blockquote-footer">Taylor, IT Specialist</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Pricing Section -->
+        <section class="py-5 bg-light" id="pricing">
+            <div class="container">
+                <h2 class="text-center mb-4">Pricing</h2>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-primary">
+                            <div class="card-header text-center bg-primary text-white fw-bold">
+                                Basic
+                            </div>
+                            <div class="card-body text-center">
+                                <h3 class="card-title pricing-card-title">$9 <small class="text-muted">/ mo</small></h3>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Essential features</li>
+                                    <li>Email support</li>
+                                    <li>Single user</li>
+                                    <li>1 GB cloud storage</li>
+                                </ul>
+                                <a href="#cta" class="btn btn-outline-primary">Choose Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-success">
+                            <div class="card-header text-center bg-success text-white fw-bold">
+                                Pro
+                            </div>
+                            <div class="card-body text-center">
+                                <h3 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h3>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>All Basic features</li>
+                                    <li>Priority support</li>
+                                    <li>Team collaboration</li>
+                                    <li>10 GB cloud storage</li>
+                                    <li>Advanced analytics</li>
+                                </ul>
+                                <a href="#cta" class="btn btn-success">Choose Plan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-warning dark">
+                            <div class="card-header text-center bg-warning text-dark fw-bold">
+                                Enterprise
+                            </div>
+                            <div class="card-body text-center">
+                                <h3 class="card-title pricing-card-title">Contact Us</h3>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>All Pro features</li>
+                                    <li>Dedicated account manager</li>
+                                    <li>Custom integrations</li>
+                                    <li>Unlimited users & storage</li>
+                                </ul>
+                                <a href="#cta" class="btn btn-warning text-dark">Contact Sales</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Call to Action Section -->
+        <section class="py-5 text-center bg-primary text-white" id="cta">
+            <div class="container">
+                <h2 class="mb-4">Ready to boost your productivity?</h2>
+                <p class="lead mb-4">Sign up now and get instant access to all features. No credit card required. Start your journey to a more efficient workflow today!</p>
+                <form class="row g-3 justify-content-center mb-3">
+                    <div class="col-md-4 col-8">
+                        <input type="email" class="form-control form-control-lg" placeholder="Enter your email" required>
+                    </div>
+                    <div class="col-md-2 col-4">
+                        <button type="submit" class="btn btn-light btn-lg w-100">Start Free Trial</button>
+                    </div>
+                </form>
+                <div class="d-flex flex-column flex-md-row justify-content-center gap-3">
+                    <span><i>✅</i> Secure signup</span>
+                    <span><i>✅</i> Quick setup</span>
+                    <span><i>✅</i> Trusted by 5,000+ teams</span>
+                </div>
+            </div>
+        </section>
+    
+        <footer class="py-4 bg-dark text-white text-center">
+            <div class="container">
+                <small>&copy; <span class="year"></span> Tech Product App. All rights reserved.</small>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
 </html>
