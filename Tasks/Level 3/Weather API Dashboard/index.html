@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="website icon" type="svg" href="images/logo.svg">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1><i class="fas fa-cloud-sun"></i> Weather Dashboard</h1>
+            <div class="search-container">
+                <input type="text" id="citySearch" placeholder="Search for a city..." class="search-input">
+                <button id="searchBtn" class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+                <button id="locationBtn" class="location-btn" title="Get current location">
+                    <i class="fas fa-location-arrow"></i>
+                </button>
+            </div>
+        </header>
+
+        <div id="loadingSpinner" class="loading-spinner hidden">
+            <div class="spinner"></div>
+            <p>Loading weather data...</p>
+        </div>
+
+        <div id="errorMessage" class="error-message hidden">
+            <i class="fas fa-exclamation-triangle"></i>
+            <span id="errorText"></span>
+        </div>
+
+        <!-- Current Weather Section -->
+        <section id="currentWeather" class="weather-section hidden">
+            <h2>Current Weather</h2>
+            <div class="current-weather-card">
+                <div class="weather-info">
+                    <div class="location">
+                        <h3 id="currentCity">City Name</h3>
+                        <p id="currentDate">Date</p>
+                    </div>
+                    <div class="temperature">
+                        <span id="currentTemp">--</span>°C
+                    </div>
+                    <div class="weather-description">
+                        <img id="currentIcon" src="" alt="Weather icon" class="weather-icon">
+                        <p id="currentDescription">Weather description</p>
+                    </div>
+                </div>
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <i class="fas fa-thermometer-half"></i>
+                        <span>Feels like: <span id="feelsLike">--</span>°C</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-tint"></i>
+                        <span>Humidity: <span id="humidity">--</span>%</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-wind"></i>
+                        <span>Wind: <span id="windSpeed">--</span> km/h</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-eye"></i>
+                        <span>Visibility: <span id="visibility">--</span> km</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Forecast Section -->
+        <section id="forecastSection" class="weather-section hidden">
+            <h2>3-Day Forecast</h2>
+            <div class="forecast-container" id="forecastContainer">
+                <!-- Forecast cards will be dynamically generated here -->
+            </div>
+        </section>
+
+        <!-- Recent Cities -->
+        <section id="recentCities" class="weather-section">
+            <h2>Recent Cities</h2>
+            <div class="recent-cities-container" id="recentCitiesContainer">
+                <!-- Recent cities will be dynamically generated here -->
+            </div>
+        </section>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
