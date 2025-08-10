@@ -1,4 +1,5 @@
 # Sidebar Task 1 - Responsive Navigation Sidebar
+<img width="500" height="367" alt="image" src="https://github.com/user-attachments/assets/d9fa19de-1af9-4eea-9e35-7e925062db8f" />
 
 ## 🎯 Objective
 
