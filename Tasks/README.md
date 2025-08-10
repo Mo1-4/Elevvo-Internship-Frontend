@@ -1,5 +1,6 @@
-# Tasks Overview
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/3dfc476c-5314-4500-89c3-d2352980e38d" />
 
+# Tasks Overview
 This folder contains all the frontend development tasks organized by skill level. Each level builds upon the previous one, creating a progressive learning experience.
 
 ## 📚 Task Levels
