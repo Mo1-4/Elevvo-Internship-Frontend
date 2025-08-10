@@ -1,4 +1,6 @@
 # Personal Blog - Complete Blog Website
+<img width="900" height="700" alt="image" src="https://github.com/user-attachments/assets/04234a3a-bfaf-4ba9-840d-2215feb6c3f7" />
+
 
 ## 🎯 Objective
 
