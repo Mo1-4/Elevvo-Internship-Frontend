@@ -1,4 +1,5 @@
 # Level 2 - Intermediate
+Welcome to Level 2! This level builds upon your foundational knowledge and introduces more complex frontend development concepts, modern design patterns, and enhanced user experiences.
 <div>
   <img width="900" height="700" alt="image" src="https://github.com/user-attachments/assets/0f677c30-9994-461f-94a9-90535c3f59ab" />
   <img width="900" height="700" alt="image" style="display: block;" src="https://github.com/user-attachments/assets/9c7d7075-cbe9-4554-8d19-7fe5f7b5b8cb" />
@@ -8,7 +9,6 @@
   <img width="500" height="900" alt="image" style="display: block;" src="https://github.com/user-attachments/assets/47133e57-b019-4c6a-95d6-eba75712a647" />
 </div>
 
-Welcome to Level 2! This level builds upon your foundational knowledge and introduces more complex frontend development concepts, modern design patterns, and enhanced user experiences.
 
 ## 🎯 Learning Objectives
 
