@@ -1,4 +1,6 @@
 # Form Task 2 - Interactive Form with Validation
+<img width="589" height="665" alt="image" src="https://github.com/user-attachments/assets/e17e9a97-7eeb-4416-8a35-07a5f754fd7e" />
+
 
 ## 🎯 Objective
 
