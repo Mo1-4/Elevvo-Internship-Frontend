@@ -1,4 +1,5 @@
 # Weather API Dashboard - Advanced Weather Application
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/d532917f-e059-4119-b9a6-ba5bc3d6f243" />
 
 ## 🎯 Objective
 
