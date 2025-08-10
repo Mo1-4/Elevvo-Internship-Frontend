@@ -1,4 +1,6 @@
 # TechProduct Landing Page - Product Showcase Website
+<img width="500" height="800" alt="image" src="https://github.com/user-attachments/assets/835701a4-e925-444b-b0ce-9b35482098af" />
+<img width="500" height="800" style="display: block;" alt="image" src="https://github.com/user-attachments/assets/071dedc0-d887-4060-bd96-97bdab0348fa" />
 
 ## 🎯 Objective
 
