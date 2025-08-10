@@ -11,39 +11,31 @@ Create a professional, multi-page personal blog website that demonstrates your a
 ### Website Structure
 The blog should include the following pages:
 
-1. **Home Page (index.html)**
+1. **Home Page (index.html) & app.jsx**
    - Hero section with blog introduction
    - Featured blog posts preview
    - About section summary
    - Newsletter signup
-
-2. **About Page (about.html)**
    - Personal introduction and bio
    - Skills and expertise
    - Professional experience
    - Contact information
-
-3. **Blog Posts Page (blog.html)**
    - List of all blog posts
    - Search and filter functionality
    - Pagination or infinite scroll
    - Categories and tags
-
-4. **Individual Blog Post Page (post.html)**
    - Full blog post content
    - Author information
    - Publication date
    - Related posts
    - Social sharing buttons
-
-5. **Contact Page (contact.html)**
    - Contact form
    - Contact information
    - Social media links
    - Location/map (optional)
 
 ### Content Requirements
-- **Sample Blog Posts**: Create 3-5 sample blog posts with realistic content
+- **Sample Blog Posts**: Create 3-8 sample blog posts with realistic content
 - **Images**: Include relevant images and icons
 - **Typography**: Professional and readable text styling
 - **Meta Information**: Proper titles, descriptions, and keywords
