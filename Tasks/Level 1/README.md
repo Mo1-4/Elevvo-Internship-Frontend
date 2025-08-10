@@ -1,8 +1,8 @@
 # Level 1 - Fundamentals
 Welcome to Level 1! This level focuses on building a strong foundation in frontend development with basic HTML, CSS, and JavaScript concepts.
-<div style="display: flex;">
+<div>
   <img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/e834118d-d02d-4839-bf19-ccb429952ee8" /> 
-  <img width="550" height="500" style="display: block;" alt="image" src="https://github.com/user-attachments/assets/6b5102d6-f54b-4169-89f0-0fcb867e345b" />
+  <img width="500" height="500" style="display: block;" alt="image" src="https://github.com/user-attachments/assets/6b5102d6-f54b-4169-89f0-0fcb867e345b" />
 </div>
 
 ## 🎯 Learning Objectives
