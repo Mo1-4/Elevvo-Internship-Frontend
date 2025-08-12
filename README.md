@@ -24,7 +24,7 @@ This project is organized into three progressive levels, each containing multipl
 - JavaScript (ES6+)
 - Responsive Design Principles
 - Modern Web APIs
-- Frontend Frameworks (where applicable)
+- Frontend Frameworks (React)
 
 ## 📚 Learning Path
 
