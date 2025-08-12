@@ -24,7 +24,7 @@ Create a comprehensive weather dashboard that integrates with real weather APIs,
    - Sunrise and sunset times
 
 2. **Forecast Section**
-   - 5-7 day weather forecast
+   - 1-3 day weather forecast
    - Hourly forecasts for current day
    - Temperature highs and lows
    - Precipitation probability
